@@ -1,0 +1,16 @@
+# fly.toml app configuration file generated for restless-wave-3283 on 2023-04-29T12:03:57+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "restless-wave-3283"
+primary_region = "cdg"
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
