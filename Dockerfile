@@ -64,3 +64,9 @@ COPY --from=build /app /app
 
 # Start the server by default, this can be overwritten at runtime
 CMD [ "npm", "run", "start" ]
+
+### Dockerfile latest cahnges. 
+### The current verion of Dockerfile is working fine and displas in the terminal that the deployemnt is successful, but the application on fly.io dashboard is suspended and not acutally working
+
+### fly.io community blocked from making any more comments because I exceeded the new user co
+### mments limits. I'm sorry to ask you for that, but is there any possible way to communicate with you out of fly.io community?
